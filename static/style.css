@@ -1,0 +1,123 @@
+/* style.css - Barbearia Navalha de Ouro */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c2c2c;
+    border-bottom: 3px solid #b8860b;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin: 15px 0 10px;
+    color: #444;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b8860b;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.status-concluido {
+    background-color: #d4edda !important;
+}
+
+.status-cancelado {
+    background-color: #f8d7da !important;
+}
+
+.filtros {
+    margin-bottom: 15px;
+}
+
+.filtros a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 6px 12px;
+    background-color: #eee;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.filtros a:hover {
+    background-color: #b8860b;
+    color: #fff;
+}
+
+.detalhe p {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 15px;
+    color: #b8860b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ver-detalhe {
+    text-decoration: none;
+    color: #b8860b;
+    font-weight: bold;
+}
+
+.ver-detalhe:hover {
+    text-decoration: underline;
+    color: #9e7612;
+}
