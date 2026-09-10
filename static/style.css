@@ -128,7 +128,7 @@ p {
 .filtros a:hover,
 .filtros a:focus-visible {
     color: var(--pole-red);
-    background-color: #fff;
+    background-color: rgb(232 222 193 / 0.65);
 }
 
 /* Tabela — caderneta de registros */
